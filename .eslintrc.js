@@ -6,6 +6,7 @@ module.exports = {
     browser: true,
   },
   rules: {
+    'no-plusplus': 0,
     'no-alert': 0,
     'no-console': 0,
     'no-constant-condition': 0,
@@ -21,6 +22,7 @@ module.exports = {
     'prefer-template': 0,
     'prettier/prettier': [
       'warn',
+
       {
         endOfLine: 'auto',
       },

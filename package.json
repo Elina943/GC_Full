@@ -1,7 +1,6 @@
 {
   "name": "gc_full",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,18 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elina943/GC_Full.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elina943/GC_Full/issues"
+  },
+  "homepage": "https://github.com/Elina943/GC_Full#readme",
+  "description": ""
 }
